@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-color: #333;
+
+}
+
+header{
+
+  display: flex;
+  background-color: rgb(139, 57, 57); /* darker red */
+  height: 100px;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.cards {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px
+}
+
+.cardContainer{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(159, 72, 72);
+  height: 250px;
+  padding: 30px;
+}
+
+.cardContainer img{
+  width: 200px;
+}
